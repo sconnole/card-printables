@@ -1,0 +1,73 @@
+[
+  {
+    "title": "Fire Slime",
+    "image": "card1.jpg",
+    "stat": "8",
+    "effect": "Deals double damage to undead.",
+    "filler": "Forged in lava flows."
+  },
+  {
+    "title": "Healing Blob",
+    "image": "card2.jpg",
+    "stat": "3",
+    "team": "slime",
+    "effect": "Heals adjacent allies by 2.",
+    "filler": "Soft, but strong."
+  },
+  {
+    "title": "Healing Blob",
+    "image": "card2.jpg",
+    "stat": "3",
+    "team": "slime",
+    "effect": "Heals adjacent allies by 2.",
+    "filler": "Soft, but strong."
+  },
+  {
+    "title": "Healing Blob",
+    "image": "card2.jpg",
+    "stat": "3",
+    "team": "slime",
+    "effect": "Heals adjacent allies by 2.",
+    "filler": "Soft, but strong."
+  },
+  {
+    "title": "Healing Blob",
+    "image": "card2.jpg",
+    "stat": "3",
+    "team": "slime",
+    "effect": "Heals adjacent allies by 2.",
+    "filler": "Soft, but strong."
+  },
+  {
+    "title": "Healing Blob",
+    "image": "card2.jpg",
+    "stat": "3",
+    "team": "slime",
+    "effect": "Heals adjacent allies by 2.",
+    "filler": "Soft, but strong."
+  },
+  {
+    "title": "Healing Blob",
+    "image": "card2.jpg",
+    "stat": "3",
+    "team": "slime",
+    "effect": "Heals adjacent allies by 2.",
+    "filler": "Soft, but strong."
+  },
+  {
+    "title": "Healing Blob",
+    "image": "card2.jpg",
+    "stat": "3",
+    "team": "slime",
+    "effect": "Heals adjacent allies by 2.",
+    "filler": "Soft, but strong."
+  },
+  {
+    "title": "Healing Blob",
+    "image": "card2.jpg",
+    "stat": "3",
+    "team": "slime",
+    "effect": "Heals adjacent allies by 2.",
+    "filler": "Soft, but strong."
+  }
+]
