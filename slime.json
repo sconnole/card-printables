@@ -1,0 +1,74 @@
+[
+  {
+    "title": "Black Slime",
+    "image": "",
+    "stat": "6",
+    "team": "slime",
+    "effect": "Restrict: No Yellow",
+    "filler": "The moon gave me a high five last night"
+  },
+  {
+    "title": "Yellow Slime",
+    "image": "",
+    "stat": "1",
+    "team": "slime",
+    "effect": "Scry 2.",
+    "filler": "Am I actually a banana?"
+  },
+  {
+    "title": "Boring Slime",
+    "image": "",
+    "stat": "3",
+    "team": "slime",
+    "effect": "-",
+    "filler": "Boring equals money right? "
+  },
+  {
+    "title": "Gray Slime",
+    "image": "",
+    "stat": "6",
+    "team": "slime",
+    "effect": "Reduce 3.",
+    "filler": "I ate a rainbow becuase I was tired of being gray"
+  },
+  {
+    "title": "Pink Slime",
+    "image": "",
+    "stat": "1",
+    "team": "slime",
+    "effect": "Boost 2",
+    "filler": "One time I ate 4 raspberries. :) "
+  },
+  {
+    "title": "Blue Slime",
+    "image": "",
+    "stat": "4",
+    "team": "slime",
+    "effect": "-",
+    "filler": "I like when it rains cats and dogs "
+  },
+  {
+    "title": "Undead Slime",
+    "image": "",
+    "stat": "2",
+    "team": "slime",
+    "effect": "Revive",
+    "filler": "If you're happy and you know it jiggle your slime"
+  },
+  {
+    "title": "Wet Slime",
+    "image": "",
+    "stat": "0",
+    "team": "slime",
+    "effect": "Slurp",
+    "filler": "I like turtle... and water... and milk... and my mom"
+  },
+  {
+    "title": "Orange Slime",
+    "image": "",
+    "stat": "2",
+    "team": "slime",
+    "effect": "Ignite",
+    "filler": "Yummy"
+  }
+]

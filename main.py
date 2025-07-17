@@ -1,4 +1,6 @@
+import sys
 import json
+import os
 from reportlab.pdfgen import canvas
 from reportlab.lib.pagesizes import letter
 from reportlab.lib.units import cm
@@ -109,7 +111,7 @@ def draw_sword(canvas, x, y, size=10):
 
 # Config
 page_width, page_height = letter
-margin = 0.25 * cm
+margin = 0.5 * cm
 cols, rows = 3, 3
 
 card_width = (page_width - 2 * margin) / cols
@@ -119,8 +121,19 @@ header_height = 1 * cm
 image_height = 5 * cm
 footer_height = card_height - header_height - image_height
 
-# Load cards
-with open("cards.json") as f:
+# Ensure path was provided
+if len(sys.argv) < 2:
+    print("Usage: python main.py <path-to-json>")
+    sys.exit(1)
+
+json_path = sys.argv[1]
+
+if not os.path.exists(json_path):
+    print(f"Error: File not found at {json_path}")
+    sys.exit(1)
+
+# Load the cards
+with open(json_path, "r") as f:
     cards = json.load(f)
 
 # PDF
@@ -224,11 +237,11 @@ for i, card in enumerate(cards):
     filler_text = card.get("filler", "Flavor text here.")
 
     text_x = x + 0.5 * cm
-    text_y = y + 0.5 * cm
+    text_y = y + 1.1 * cm
 
-    c.setFont("Helvetica-Oblique", 8)
+    c.setFont("Helvetica", 10)
     c.drawString(text_x, text_y + 1.2 * cm, effect_text)
-    c.setFont("Helvetica", 7)
+    c.setFont("Helvetica-Oblique", 7)
     c.drawString(text_x, text_y + 0.6 * cm, filler_text)
 
 c.save()
